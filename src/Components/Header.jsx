@@ -1,9 +1,10 @@
+import { logo } from "../assets/favicon.svg";
 export default function Header() {
   return (
     <nav>
       <div className="flex max-w-7xl items-center bg-[#F9FAFB] w-full justify-between py-1 mt-2 border px-4 rounded-md mx-auto">
         <div>
-          <img src="./assets/image/favicon.svg" className="h-14" />
+          <img src={logo} className="h-14" />
         </div>
 
         <div className="hidden md:block">

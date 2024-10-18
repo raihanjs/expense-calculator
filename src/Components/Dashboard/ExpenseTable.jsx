@@ -198,6 +198,7 @@ export default function ExpenseTable({
                       id="filter-option-1"
                       value="Education"
                       onChange={handleChange}
+                      checked={filter.includes("Education")}
                     />
                     <span className="ml-2">Education</span>
                   </label>
@@ -208,6 +209,7 @@ export default function ExpenseTable({
                       id="filter-option-2"
                       value="Food"
                       onChange={handleChange}
+                      checked={filter.includes("Food")}
                     />
                     <span className="ml-2">Food</span>
                   </label>
@@ -218,6 +220,7 @@ export default function ExpenseTable({
                       id="filter-option-3"
                       value="Health"
                       onChange={handleChange}
+                      checked={filter.includes("Health")}
                     />
                     <span className="ml-2">Health</span>
                   </label>
@@ -228,6 +231,7 @@ export default function ExpenseTable({
                       id="filter-option-3"
                       value="Bill"
                       onChange={handleChange}
+                      checked={filter.includes("Bill")}
                     />
                     <span className="ml-2">Bill</span>
                   </label>
@@ -238,6 +242,7 @@ export default function ExpenseTable({
                       id="filter-option-3"
                       value="Insurance"
                       onChange={handleChange}
+                      checked={filter.includes("Insurance")}
                     />
                     <span className="ml-2">Insurance</span>
                   </label>
@@ -248,6 +253,7 @@ export default function ExpenseTable({
                       id="filter-option-3"
                       value="Tax"
                       onChange={handleChange}
+                      checked={filter.includes("Tax")}
                     />
                     <span className="ml-2">Tax</span>
                   </label>
@@ -258,6 +264,7 @@ export default function ExpenseTable({
                       id="filter-option-3"
                       value="Transport"
                       onChange={handleChange}
+                      checked={filter.includes("Transport")}
                     />
                     <span className="ml-2">Transport</span>
                   </label>
@@ -268,6 +275,7 @@ export default function ExpenseTable({
                       id="filter-option-3"
                       value="Telephone"
                       onChange={handleChange}
+                      checked={filter.includes("Telephone")}
                     />
                     <span className="ml-2">Telephone</span>
                   </label>

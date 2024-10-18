@@ -193,6 +193,7 @@ export default function IncomeTable({
                       id="filter-option-1"
                       value="Salary"
                       onChange={handleChange}
+                      checked={filter.includes("Salary")}
                     />
                     <span className="ml-2">Salary</span>
                   </label>
@@ -203,6 +204,7 @@ export default function IncomeTable({
                       id="filter-option-2"
                       value="Outsourcing"
                       onChange={handleChange}
+                      checked={filter.includes("Outsourcing")}
                     />
                     <span className="ml-2">Outsourcing</span>
                   </label>
@@ -213,6 +215,7 @@ export default function IncomeTable({
                       id="filter-option-3"
                       value="Bond"
                       onChange={handleChange}
+                      checked={filter.includes("Bond")}
                     />
 
                     <span className="ml-2">Bond</span>
@@ -225,6 +228,7 @@ export default function IncomeTable({
                       id="filter-option-3"
                       value="Dividend"
                       onChange={handleChange}
+                      checked={filter.includes("Dividend")}
                     />
                     <span className="ml-2">Dividend</span>
                   </label>
